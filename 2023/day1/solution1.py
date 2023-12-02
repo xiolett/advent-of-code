@@ -20,8 +20,7 @@ def get_digits(text: str) -> str:
         return '0'
 
 if __name__ == "__main__":
-    # TODO: replace this with a real puzzle input
-    f = open("./2023/day1/input_sample1.txt", "r")
+    f = open("./2023/day1/input.txt", "r")
     
     # Create an emprt list to store double digits of calibration values
     calibration_values = []
